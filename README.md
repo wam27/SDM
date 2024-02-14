@@ -1,7 +1,7 @@
 # SDM
 ## Take species occurrences to run Maxent in the dismo package
 
-Estimate species distribution models from occurrence points. It uses either alpha hull or convex hull (por defecto) as an extent boundary. It also has the option of using either dismo (por defecto) or the ENMval package to use the maxent function.
+Estimate species distribution models from occurrence points. It uses either alpha hull or convex hull (by default) as an extent boundary. It also has the option of using either dismo (by default) or the ENMval package to use the maxent function.
 
 ## Basic variables
 
