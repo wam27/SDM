@@ -4,6 +4,7 @@
 rm(list=ls()) #Vaciar ambiente
 if(!require(divraster)){install.packages("divraster");library(divraster)}
 if(!require(leaflet)){install.packages("leaflet"); library(leaflet)}
+if(!require(raster)){install.packages("raster"); library(raster)}
 if(!require(htmlwidgets)){install.packages("htmlwidgets"); library(htmlwidgets)}
 
 dir=setwd("C:/Users/wam27/Desktop") # defines directory
