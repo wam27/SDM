@@ -1,4 +1,4 @@
-# SDM
+SDM
 ## Take species occurrences to run Maxent in the dismo package
 
 # Estimate species distribution models from occurrence points. It uses either
