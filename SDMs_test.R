@@ -36,10 +36,7 @@ if(!require(raster)){install.packages("raster"); library(raster)} # Manipular ob
 if(!require(rgbif)){install.packages("rgbif");library(rgbif)} # Descargar datos de gbif
 if(!require(ENMeval)){install.packages("ENMeval"); library(ENMeval)} #Alternativa para generar modelos de distribución
 if(!require(virtualspecies)){install.packages("virtualspecies");library(virtualspecies)} #Estimate collinearity
-# if(!require(exactextractr)) install.packages("exactextractr");library(exactextractr)
 if(!require(rJava)){install.packages("rJava");library(rJava)} # Requisito para correr Maxent
-# if(!require(geodata)){install.packages("geodata"); library(geodata)} #
-# if(!require(ecospat)){install.packages("ecospat"); library(ecospat)}
 
 
 # PREPARACION DE VARIABLES ----
