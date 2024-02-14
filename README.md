@@ -5,13 +5,13 @@ Estimate species distribution models from occurrence points. It uses either alph
 
 ## Basic variables
 
-#### spp_list -----   csv with all species with occurrences if GBIF is set as FALSE. The file can be downloaded directly from https://www.gbif.org/occurrence/download/0243969-200613084148143 or accessed from the GBIF API
+#### spp_list -----   csv with occurrences for species. Here GBIF is set as FALSE. The file can be downloaded directly from https://www.gbif.org/occurrence/download/0243969-200613084148143 or accessed from the GBIF API
 #### nmin   -----     min number of occurrences to compute
-#### nmax   -----     max number of occurrences to compute. Set ad Inf by default
-#### hull   -----     Uses a polygon to get the extent
-#### convex_hull ----- Uses convex.hull function instead of alpha hull
-#### GBIF   -----     Get occurrences from GBIF
-#### ENM   -----      Uses ENMval to estimate the model
+#### nmax   -----     max number of occurrences to compute. Set as Inf by default
+#### hull   -----     uses a polygon to get the extent. This is the default. Otherwise, get the extent of the occurrences.
+#### convex_hull ----- uses convex.hull function instead of alpha hull. This is the default.
+#### GBIF   -----     get occurrences from GBIF
+#### ENM   -----      uses ENMval to estimate a model
 #### res   -----      resolution of the environmental variables 0.5, 2.5, 5, 10 minutes of a decimal degree
 #### spp.limit -----  limit the analysis to a species threshold.
 #### output -----    the path to store raster and report table outputs
