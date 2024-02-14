@@ -11,8 +11,8 @@
 ## Arguments
 
 # spp_list    csv with all species with occurrences if GBIF is set as FALSE
-# nmin        min number of occurrences to compute
-# nmax        max number of occurrences to compute. Set ad Inf by default
+# nmin        min number of occurrences to compute. Five is the default
+# nmax        max number of occurrences to compute. Set 15 as default
 # hull        uses a polygon to get the extent
 # convex_hull Uses convex.hull function instead of alpha hull
 # GBIF        Get occurrences from GBIF
@@ -47,9 +47,9 @@ spp_list_path<- file.choose() #Cargar lista de especies de interes
 spp_list<-read.delim(spp_list_path, header=TRUE)
 GBIF<-FALSE
 ENM<-FALSE
-nmin=3
-nmax=Inf
-spp.limit=Inf
+nmin=5
+nmax=15
+spp.limit=100
 hull=TRUE
 convex_hull=TRUE
 res<-10
