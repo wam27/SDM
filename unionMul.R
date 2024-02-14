@@ -1,3 +1,5 @@
+# Function to calculate the larger raster extent based on the union of 2 or more layers
+
 multiple.union<-function(rasters){
   
   extents <- lapply(raster.list, extent)
