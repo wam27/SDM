@@ -18,7 +18,7 @@
 # GBIF        Get occurrences from GBIF
 # ENM         Uses ENMval to estimate the model
 # res         resolution of the environmental variables 0.5, 2.5, 5, 10 minutes of a decimal degree
-# spp.limit   limit the estimate to a species threshold.
+# spp.limit   limit the estimate to a species threshold. The default is 100.
 # output      the path to store raster and report table outputs
 
 
