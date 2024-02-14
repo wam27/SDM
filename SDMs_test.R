@@ -54,7 +54,7 @@ hull=TRUE
 convex_hull=TRUE
 res<-10
 output<-"C:/Users/wam27/Desktop/Models10/"
-# Funci[on para estimar un umbral que defina la distirbución potencial de las especies
+# Funci[on para estimar un umbral que defina la distribución potencial de las especies
 sdm.threshold <- dget(paste0(dir,"/sdm_threshold.R"))
 
 
@@ -78,7 +78,7 @@ for (i in 1:len.spp){
     start.time <- Sys.time()
     
     if (i>spp.limit){
-      print('You have reached the species limit to compute models') # Definir un número máximo de especies para calcular lod modelos 
+      print('You have reached the species limit to compute models') # Definir un número máximo de especies para calcular los modelos 
     }
     
     sci.name <- as.character(spp_list$species[i]) #Nombre de la i-esima especie
@@ -161,7 +161,7 @@ for (i in 1:len.spp){
       r <- getData("worldclim",var="bio",res=res, lon=extent_occur@xmax ,lat=extent_occur@ymax)
       
    
-      rasters.crop<- stack(crop(r,extent_occur)) # Reducir el extent de las variables a la zona de interes
+      rasters.crop<- stack(crop(r,extent_occur)) # Reducir el extent de las variables a la zona de interés
       
       # Calcular colinearidad 
       r.reduced <- removeCollinearity(rasters.crop, multicollinearity.cutoff = 0.75, 
