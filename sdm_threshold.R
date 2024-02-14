@@ -1,4 +1,5 @@
 # Code from https://babichmorrowc.github.io/
+#This function allows to select either the minimum threshold point (mtp) or the 10th percentile (p10) to define a binomial model
 
 library(raster)
 ## Warning: package 'raster' was built under R version 3.5.2
